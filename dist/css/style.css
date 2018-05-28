@@ -105,21 +105,21 @@ nav {
     width: 26%;
 }
 .aProposNav {
-    background-color: #d35400;
+    background-color: #3498db;
 }
 .aProposNav h3 {
     margin-top: 15px;
     font-size: 1.3rem;
 }
 .competenceNav {
-    background-color: #3498db;
+    background-color: #d35400;
 }
 .competenceNav h3 {
     margin-top: 15px;
     font-size: 1.3rem;
 }
 .experienceNav {
-    background-color: #2c3e50;
+    background-color: #f1c40f;
 }
 .experienceNav h3 {
     margin-top: 15px;
@@ -147,7 +147,7 @@ nav {
     font-size: 1.3rem;
 }
 .contactNav {
-    background-color: #f1c40f;
+    background-color: #2c3e50;
 }
 .contactNav h3 {
     margin-top: 15px;
@@ -209,7 +209,7 @@ section {
     font-size: 1.8rem;
     color: white;
     opacity: 0;
-    background-color: #8e44ad;
+    background-color: #d35400;
 }
 .icon {
     display: flex;
@@ -282,7 +282,7 @@ section {
     margin: 40px 0;
     font-size: 1.8rem;
     opacity: 0;
-    background-color: rgb(38, 45, 56);
+    background-color: #2ecc71;
 }
 #realisation p {
     margin-bottom: 20px;
@@ -343,7 +343,7 @@ section {
     margin: 40px 0;
     font-size: 1.8rem;
     opacity: 0;
-    background-color: #27ae60;
+    background-color: #f1c40f;
 }
 #experience p {
     width: 90%;
@@ -397,7 +397,7 @@ section {
     height: 70px;
     font-size: 1.8rem;
     opacity: 0;
-    background-color: #2c3e50;
+    background-color: #7f8c8d;
 }
 #formation p {
     width: 90%;
@@ -592,14 +592,17 @@ section {
         text-decoration: none;
         color: white;
     }
-    .aProposNav2 {
-        background-color: #d35400;
+    .menuNav2 {
+        background-color: #f0932b;
     }
-    .competenceNav2 {
+    .aProposNav2 {
         background-color: #3498db;
     }
+    .competenceNav2 {
+        background-color: #d35400;
+    }
     .experienceNav2 {
-        background-color: #2c3e50;
+        background-color: #f1c40f;
     }
     .formationNav2 {
         background-color: #7f8c8d;
@@ -611,7 +614,7 @@ section {
         background-color: #8e44ad;
     }
     .contactNav2 {
-        background-color: #f1c40f;
+        background-color: #2c3e50;
     }
     /*------a propos------*/
     #aPropos {
