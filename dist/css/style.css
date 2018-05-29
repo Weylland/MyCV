@@ -490,7 +490,8 @@ section {
 .contactPhone,
 .contactMail,
 .github,
-.linkedin {
+.linkedin,
+.cvPdf {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -500,10 +501,11 @@ section {
     margin: 5px;
     opacity: 0;
 }
-.linkedin {
+.cvPdf {
     margin-bottom: 20px;
 }
 #contact img {
+    margin-top: 10px;
     width: 20%;
 }
 #contact a {
@@ -522,6 +524,9 @@ section {
 }
 .linkedin {
     background-color: #95a5a6;
+}
+.cvPdf {
+    background-color: #d35400;
 }
 /*-----media-----*/
 @media screen and (min-width:780px) {
@@ -728,7 +733,8 @@ section {
     .contactPhone,
     .contactMail,
     .github,
-    .linkedin {
+    .linkedin,
+    .cvPdf {
         width: 610px;
     }
     .divContactCont {

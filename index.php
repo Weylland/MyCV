@@ -153,6 +153,12 @@
                         <img src="img/icon/linkedin.png" alt="Icon de linkedin">
                     </div>
                 </a>
+                <a href="cv/samier-nicolas-cv.pdf" target="_blank">
+                    <div class="cvPdf fade">
+                        <img src="img/icon/download.png" alt="Icon de téléchargement">
+                        <p>CV Format PDF</p>
+                    </div>
+                </a>
             </div>
         </section>
         <script src="dist/js/jquery-3.3.1.min.js"></script>
