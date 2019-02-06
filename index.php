@@ -49,11 +49,20 @@
                 <div class="git icon fade" title="Git"><img src="img/icon/Git.png" alt="Icône du logo git" ></div>
                 <div class="visual icon fade" title="Visual Studio Code"><img src="img/icon/Visual-Studio-Code.png" alt="Icône du logo visual studio code" ></div>
                 <div class="atom icon fade" title="Atom"><img src="img/icon/Atom.png" alt="Icône du logo atom" ></div>
+                <div class="leaflet icon fade" title="Leaflet"><img src="img/icon/leaflet.png" alt="Icône du logo Leaflet" ></div>
+                <div class="laravel icon fade" title="Laravel"><img src="img/icon/logo-laravel.png" alt="Icône du logo Laravel" ></div>
+                <div class="tilemill icon fade" title="Tilemill"><img src="img/icon/tilemill.png" alt="Icône du logo Tilemill" ></div>
+
             </div>
         </section>
         <section id="realisation">
             <h2 class="fade">Réalisations</h2>
             <div class="divRealCont">
+                <div class="card adavDiv fade">
+                    <a href="https://carto.droitauvelo.org" target="_blank"><img src="img/adav.PNG" alt="Image du site carto.droitauvelo.org" class="adavImg"></a>
+                    <h3>ADAV - Droit au vélo</h3>
+                    <p>Réalisation d’une carte regroupant l’ensemble des informations utiles aux déplacements des cyclistes dans la région Nord Pas-de-Calais.</p>
+                </div>
                 <div class="card sncfDiv fade">
                     <img src="img/sncf.jpg" alt="Image de train sncf" class="sncfImg">
                     <h3>SNCF</h3>
@@ -63,11 +72,6 @@
                     <a href="http://samier-developpement.fr/Happy-Cats/ " target="_blank"><img src="img/happy-cats.jpg" alt="Image du site Happy Cats" class="happyImg"></a>
                     <h3>Happy Cats</h3>
                     <p>Réalisation d’un site web pour Happy Cats qui est une association de protection des animaux. Le site a pour but de présenter l’association, ses membres et leurs différentes activités.</p>
-                </div>
-                <div class="card adavDiv fade">
-                    <a href="https://carto.droitauvelo.org" target="_blank"><img src="img/adav.png" alt="Image du site carto.droitauvelo.org" class="adavImg"></a>
-                    <h3>ADAV - Droit au vélo</h3>
-                    <p>Réalisation d’une carte regroupant l’ensemble des informations utiles aux déplacements des cyclistes dans la région Nord Pas-de-Calais.</p>
                 </div>
             </div>
         </section>
