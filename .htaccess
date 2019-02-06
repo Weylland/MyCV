@@ -1,0 +1,18 @@
+# Redirection automatique des URL HTTP en HTTPS
+
+
+
+RewriteEngine On
+
+RewriteCond %{SERVER_PORT} 80
+
+RewriteRule ^(.*)$ https://cv.samier-developpement.fr/$1 [R,L]
+
+
+
+# Empecher le listage du contenu d’un repertoire quand l'index.php (ou html) est manquant
+
+
+
+Options -Indexes
+

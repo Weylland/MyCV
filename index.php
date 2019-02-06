@@ -28,7 +28,7 @@
         <section id="aPropos">
             <h2 class="fade">À propos</h2>
                 <div class="aProposText fade">
-                    <p>Je m’appelle Nicolas, j’ai 29 ans et je suis développeur web. Je suis passionné d’informatique et 
+                    <p>Je m’appelle Nicolas, j’ai 30 ans et je suis développeur web. Je suis passionné d’informatique et 
                         par tout ce qui touche de près ou de loin aux nouvelles technologies.</p>
                     <p>Cette passion pour l’informatique m’a amené à me demander comment tout cela pouvait bien 
                         fonctionner, c’est comme ça que j’ai découvert le développement et plus particulièrement le développement web.</p>
@@ -64,6 +64,11 @@
                     <h3>Happy Cats</h3>
                     <p>Réalisation d’un site web pour Happy Cats qui est une association de protection des animaux. Le site a pour but de présenter l’association, ses membres et leurs différentes activités.</p>
                 </div>
+                <div class="card adavDiv fade">
+                    <a href="https://carto.droitauvelo.org" target="_blank"><img src="img/adav.png" alt="Image du site carto.droitauvelo.org" class="adavImg"></a>
+                    <h3>ADAV - Droit au vélo</h3>
+                    <p>Réalisation d’une carte regroupant l’ensemble des informations utiles aux déplacements des cyclistes dans la région Nord Pas-de-Calais.</p>
+                </div>
             </div>
         </section>
         <section id="video">
@@ -89,6 +94,10 @@
         <section id="experience">
             <h2 class="fade">Expériences</h2>
             <div class="divExpCont">
+                <div class="adav fade">
+                    <h3>2018</h3>
+                    <p>Réalisation d'une carte pour l'ADAV - Droit au vélo.</p>
+                </div>
                 <div class="sncf fade">
                     <h3>2018</h3>
                     <p>Réalisation d'une application pour la SNCF.</p>
@@ -162,32 +171,6 @@
             </div>
         </section>
         <script src="dist/js/jquery-3.3.1.min.js"></script>
-        <script src="dist/js/script.js"></script>
-        <!-- Yandex.Metrika counter -->
-        <script type="text/javascript" >
-            (function (d, w, c) {
-                (w[c] = w[c] || []).push(function() {
-                    try {
-                        w.yaCounter48658436 = new Ya.Metrika({
-                            id:48658436,
-                            clickmap:true,
-                            trackLinks:true,
-                            accurateTrackBounce:true
-                        });
-                    } catch(e) { }
-                });
-                var n = d.getElementsByTagName("script")[0],
-                    s = d.createElement("script"),
-                    f = function () { n.parentNode.insertBefore(s, n); };
-                s.type = "text/javascript";
-                s.async = true;
-                s.src = "https://mc.yandex.ru/metrika/watch.js";
-                if (w.opera == "[object Opera]") {
-                    d.addEventListener("DOMContentLoaded", f, false);
-                } else { f(); }
-            })(document, window, "yandex_metrika_callbacks");
-        </script>
-        <noscript><div><img src="https://mc.yandex.ru/watch/48658436" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-        <!-- /Yandex.Metrika counter -->    
+        <script src="dist/js/script.js"></script> 
     </body>
 </html>

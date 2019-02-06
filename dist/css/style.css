@@ -308,8 +308,16 @@ section {
     opacity: 0;
     background-color: #7f8c8d;
 }
+.adavDiv {
+    opacity: 0;
+    background-color: #f0932b;
+}
 .sncfImg {
     width: 84%;
+    margin: 27px 0;
+}
+.adavImg {
+    width: 99%;
     margin: 27px 0;
 }
 .card a {
@@ -363,6 +371,9 @@ section {
     height: 150px;
     margin: 5px;
     opacity: 0;
+}
+.adav {
+    background-color: #f0932b;
 }
 .sncf {
     background-color: #d35400;
